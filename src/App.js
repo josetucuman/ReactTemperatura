@@ -51,11 +51,11 @@ export default class App extends Component {
     return (
       <div className ="container p-4">
         <div className="row">
-          <div className="col-md-4 mx-auto">
+          <div className="col-md-3 mx-auto">
             <FormTiempo tomarTemperatura={this.tomarTemperatura} />
             
           </div>
-          <div className="col-md-8 mx-auto">
+          <div className="col-md-9 mx-auto">
            
             <TempInfo {...this.state} />
           </div>

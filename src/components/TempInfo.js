@@ -10,7 +10,7 @@ const TempInfo = props => {
                     <p>{props.error}</p>
                 </div>
             }
-            {props.temperatura ?  props.ciudad && props.pais &&  props.temperatura && props.humedad && props.velocidad_viento &&
+            {props.temperatura ?  props.ciudad && props.pais &&  props.temperatura && props.humedad && props.velocidad_viento && props.descripcion &&
                        
                 
                     <table className="table table-hover">
@@ -21,6 +21,7 @@ const TempInfo = props => {
                                 <th scope="col">Temperatura °C</th>
                                 <th scope="col">Velocidad Viento [Km/h]</th>
                                 <th scope="col">Humedad °C</th>
+                                <th scope="col">Descripcion</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -31,6 +32,7 @@ const TempInfo = props => {
                             <td>{props.temperatura}</td>
                             <td>{props.humedad}</td>
                             <td>{props.velocidad_viento}</td>
+                            <td>{props.descripcion}</td>
                         </tr>
                         </tbody>
                     </table>

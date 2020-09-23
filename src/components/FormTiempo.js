@@ -14,7 +14,7 @@ const FormTiempo = props => (
                     <input type="text" name="pais" placeholder="Codigo de Pais" className="form-control" />
                 </div>
                 <button
-                    className="btn btn-mio btn-block">
+                    className="btn btn-success btn-block">
                    Enviar
                 </button>
             </form>
