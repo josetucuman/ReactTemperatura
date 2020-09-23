@@ -16,22 +16,26 @@ const TempInfo = props => {
                     <table className="table table-hover">
                         <thead>
                             <tr>
-                                <th scope="col">Pais</th>
+                                
                                 <th scope="col">Ciudad</th>
-                                <th scope="col">Temperatura °C</th>
-                                <th scope="col">Velocidad Viento [Km/h]</th>
-                                <th scope="col">Humedad °C</th>
+                                <th scope="col">T Min</th>
+                                <th scope="col">Temp°C</th>
+                                <th scope="col">T Max</th>
+                                <th scope="col">Viento [Km/h]</th>
+                                <th scope="col">Humedad</th>
                                 <th scope="col">Descripcion</th>
                             </tr>
                         </thead>
                         <tbody>
                         
                         <tr className="tabla-decana">
-                            <td>{props.pais}</td>
+                            
                             <td>{props.ciudad}</td>
+                            <td>{props.temp_min}</td>
                             <td>{props.temperatura}</td>
-                            <td>{props.humedad}</td>
+                            <td>{props.temp_max}</td>
                             <td>{props.velocidad_viento}</td>
+                            <td>{props.humedad} %</td>
                             <td>{props.descripcion}</td>
                         </tr>
                         </tbody>

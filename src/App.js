@@ -25,7 +25,7 @@ export default class App extends Component {
     const {ciudad, pais} = e.target.elements
     const ciudadValor = ciudad.value
     const paisValor = pais.value
-    const API_TEMP = `https://api.openweathermap.org/data/2.5/weather?q=${ciudadValor},${paisValor}&appid=${CLAVE_TEMP}&units=metric`
+    const API_TEMP = `https://api.openweathermap.org/data/2.5/weather?q=${ciudadValor},${paisValor}&appid=${CLAVE_TEMP}&units=metric&lang=es`
     
     const response = await fetch(API_TEMP);
     const data = await response.json();
