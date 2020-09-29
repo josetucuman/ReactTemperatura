@@ -1,4 +1,5 @@
 import React from 'react';
+import TempInfo from './TempInfo';
 
 const FormTiempo = props => (
     <div className="card">
@@ -18,7 +19,9 @@ const FormTiempo = props => (
                    Enviar
                 </button>
             </form>
+           
         </div>
+        
     </div>
 )
 

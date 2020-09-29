@@ -43,7 +43,7 @@ const TempInfo = props => {
                     
                 :
                 <div className="card card-body mt-2 text-center">
-                    <i className="fas fa-sun fa-10x"></i>
+                   <h2>No se encontro la ciudad</h2>
                 </div>
                 
             }
